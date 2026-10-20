@@ -1,48 +1,7 @@
-# CAFA6 Protein Function Prediction
+# CAFA6
 
-Protein function prediction experiments for CAFA6.
+프로젝트 설명을 **[통합 프로젝트 노트](https://github.com/bgw4399/bgw4399/blob/main/docs/projects/cafa6-protein-function-prediction.md)**로 옮겼습니다.
 
-## Overview
+단백질 기능 예측 코드와 실험 구조 안내.
 
-This repository organizes CAFA6 experiments into GitHub-safe scripts, notebooks, reference files, and ignored local data artifacts. It separates raw data, embeddings, derived outputs, and results to keep the public repository clean.
-
-## Folder Structure
-
-```text
-.
-|-- scripts/
-|   |-- analysis/
-|   |-- data_prep/
-|   |-- evaluation/
-|   |-- experimental/
-|   |-- pipeline/
-|   |-- qa/
-|   `-- training/
-|-- notebooks/
-|-- data/
-|   |-- reference/
-|   |-- raw/
-|   |-- embeddings/
-|   |-- derived/
-|   `-- metadata/
-|-- results/
-`-- artifacts/
-```
-
-## Methods
-
-- protein embeddings such as ESM/ProtBERT-style representations
-- Gene Ontology graph/reference features
-- scikit-learn/XGBoost models
-- stacking and validation pipelines
-- prediction and evaluation scripts
-
-## Install
-
-```bash
-pip install -r requirements.txt
-```
-
-## Public Sharing Notes
-
-Include scripts, notebooks, `data/reference`, README, and requirements. Exclude raw data, embeddings, derived outputs, results, temporary DBs, and generated artifacts.
+실제 코드·설치·실행 안내: **[kaggle-cafa6](https://github.com/bgw4399/kaggle-cafa6)**
